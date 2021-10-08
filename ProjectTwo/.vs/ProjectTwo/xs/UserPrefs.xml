@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{2F1748C7-DC56-BD7F-DBB5-8E4585C341AD}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BucketController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/HandVisualController.cs" Line="14" Column="6" />
+      <File FileName="../../altReal/Oct4Lab/Oct4Lab/Assets/Scripts/HandVisualController.cs" Line="27" Column="6" />
+      <File FileName="Assets/Scripts/HighLightController.cs" Line="28" Column="12" />
+      <File FileName="Assets/Scripts/FloorTimeOut.cs" Line="25" Column="11" />
+      <File FileName="Assets/Scripts/BucketController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ProjectTwo" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="BucketController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e2994262-df3c-498e-9f03-7da90089ca5b" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
