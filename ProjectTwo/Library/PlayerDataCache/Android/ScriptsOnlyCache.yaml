@@ -55,7 +55,11 @@ ScriptsOnlyBuild:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.Interaction.Toolkit.dll:
     - UnityEngine.XR.Interaction.Toolkit.ActionBasedController
+    - UnityEngine.XR.Interaction.Toolkit.ActionBasedSnapTurnProvider
     - UnityEngine.XR.Interaction.Toolkit.Inputs.InputActionManager
+    - UnityEngine.XR.Interaction.Toolkit.LocomotionSystem
+    - UnityEngine.XR.Interaction.Toolkit.TeleportationArea
+    - UnityEngine.XR.Interaction.Toolkit.TeleportationProvider
     - UnityEngine.XR.Interaction.Toolkit.XRDirectInteractor
     - UnityEngine.XR.Interaction.Toolkit.XRGrabInteractable
     - UnityEngine.XR.Interaction.Toolkit.XRInteractionManager
@@ -137,6 +141,8 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 604}
+    - Class: 114
       Script: {instanceID: 616}
     - Class: 114
       Script: {instanceID: 1664}
@@ -152,6 +158,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 1824}
     - Class: 114
       Script: {instanceID: 1974}
+    - Class: 114
+      Script: {instanceID: 2112}
     - Class: 114
       Script: {instanceID: 2460}
     - Class: 114
@@ -183,11 +191,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3934}
     - Class: 114
+      Script: {instanceID: 4066}
+    - Class: 114
       Script: {instanceID: 4132}
     - Class: 114
       Script: {instanceID: 4148}
     - Class: 114
       Script: {instanceID: 4272}
+    - Class: 114
+      Script: {instanceID: 4426}
     - Class: 114
       Script: {instanceID: 4574}
     - Class: 114
