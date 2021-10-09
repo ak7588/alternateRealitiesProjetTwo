@@ -7,6 +7,7 @@ public class BucketController : MonoBehaviour
     public MeshRenderer bucketRenderer;
     public AudioSource playSound;
     private int count = 0;
+    private MasterScript MasterScript;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -15,6 +16,7 @@ public class BucketController : MonoBehaviour
             if (count == 3)
             {
                 playSound.Play();
+                MasterScript.taskTwoCompleted = true;
             }
         }
     }

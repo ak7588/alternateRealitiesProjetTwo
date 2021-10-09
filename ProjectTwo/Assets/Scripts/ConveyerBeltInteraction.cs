@@ -7,6 +7,7 @@ public class ConveyerBeltInteraction : MonoBehaviour
     public GameObject blueGift;
     public AudioSource playSound;
     public GameObject grayBox;
+    private MasterScript MasterScript;
 
     private void Start()
     {
@@ -20,6 +21,7 @@ public class ConveyerBeltInteraction : MonoBehaviour
             other.gameObject.SetActive(false);
             blueGift.SetActive(true);
             playSound.Play();
+            MasterScript.taskOneCompleted = true;
         }
     }
 }

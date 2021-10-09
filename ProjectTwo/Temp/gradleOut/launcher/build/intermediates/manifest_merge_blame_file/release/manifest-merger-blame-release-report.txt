@@ -146,7 +146,7 @@
 80-->[:unityLibrary] /Volumes/SAVE HERE/alternateRealitiesProjetTwo/ProjectTwo/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:71:9-73:68
 81            android:name="unity.build-id"
 81-->[:unityLibrary] /Volumes/SAVE HERE/alternateRealitiesProjetTwo/ProjectTwo/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:72:13-42
-82            android:value="aeb9e811-b4f4-4250-b81d-e90027dde502" />
+82            android:value="0c653982-e070-43e4-9932-709efcdb1f17" />
 82-->[:unityLibrary] /Volumes/SAVE HERE/alternateRealitiesProjetTwo/ProjectTwo/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:73:13-65
 83        <meta-data
 83-->[:unityLibrary] /Volumes/SAVE HERE/alternateRealitiesProjetTwo/ProjectTwo/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:74:9-76:39

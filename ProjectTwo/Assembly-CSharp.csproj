@@ -60,6 +60,7 @@
     <Compile Include="Assets/Scripts/FloorTimeOut.cs" />
     <Compile Include="Assets/Scripts/ControlHit.cs" />
     <Compile Include="Assets/Scripts/ConveyerBeltInteraction.cs" />
+    <Compile Include="Assets/Scripts/MasterScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
