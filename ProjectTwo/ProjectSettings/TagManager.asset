@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Floor
   - Gift
+  - GrayBox
   layers:
   - Default
   - TransparentFX

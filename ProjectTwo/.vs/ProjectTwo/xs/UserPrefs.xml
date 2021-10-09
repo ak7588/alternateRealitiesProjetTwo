@@ -1,7 +1,9 @@
 ﻿<Properties StartupConfiguration="{2F1748C7-DC56-BD7F-DBB5-8E4585C341AD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/HandVisualController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ConveyerBeltInteraction.cs">
     <Files>
       <File FileName="Assets/Scripts/HandVisualController.cs" Line="14" Column="6" />
+      <File FileName="Assets/Scripts/ConveyerBeltInteraction.cs" Line="11" Column="9" />
+      <File FileName="Assets/Scripts/BucketController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

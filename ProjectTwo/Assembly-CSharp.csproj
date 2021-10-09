@@ -59,6 +59,7 @@
     <Compile Include="Assets/Scripts/HandVisualController.cs" />
     <Compile Include="Assets/Scripts/FloorTimeOut.cs" />
     <Compile Include="Assets/Scripts/ControlHit.cs" />
+    <Compile Include="Assets/Scripts/ConveyerBeltInteraction.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
