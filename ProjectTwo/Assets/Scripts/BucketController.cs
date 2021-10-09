@@ -1,21 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.XR.Interaction.Toolkit;
 public class BucketController : MonoBehaviour
 {
-    public Transform spawn;
     public MeshRenderer bucketRenderer;
+    public AudioSource playSound;
+    private int count = 0;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Gift")) {
-            HighLightController hc = other.gameObject.GetComponent<HighLightController>();
-            Color cubeColor = hc.GetBaseColor();
-            bucketRenderer.material.color = cubeColor;
-            hc.SetBaseColor(Random.ColorHSV());
-            other.gameObject.transform.position = spawn.position;
+            count += 1;
+            if (count == 3)
+            {
+                playSound.Play();
+            }
         }
     }
-
 }
