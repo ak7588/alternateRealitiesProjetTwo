@@ -73,6 +73,8 @@ ScriptsOnlyBuild:
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
+    Unity.XR.Oculus.Editor.dll:
+    - Unity.XR.Oculus.Editor.OculusSettingsEditor
     Unity.XR.Oculus.dll:
     - Unity.XR.Oculus.OculusLoader
     - Unity.XR.Oculus.OculusSettings
@@ -613,7 +615,7 @@ ScriptsOnlyBuild:
     className: Button
   - hash:
       serializedVersion: 2
-      Hash: 92555952b512ddf1ab377567f05878a1
+      Hash: f04dd2949973eb83961e6ceb55970f8e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BucketController
@@ -1597,7 +1599,7 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: 1d1aade760ba6a6d61de5f8de2107f09
+      Hash: aca30caafb7b7e8b4367df225613ad0e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: StartEngine
