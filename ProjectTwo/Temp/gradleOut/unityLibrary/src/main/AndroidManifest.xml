@@ -16,7 +16,7 @@
     <meta-data android:name="unity.splash-enable" android:value="True" />
     <meta-data android:name="unity.allow-resizable-window" android:value="False" />
     <meta-data android:name="notch.config" android:value="portrait|landscape" />
-    <meta-data android:name="unity.build-id" android:value="b01f5556-a35f-4683-877a-db1ae91cb18a" />
+    <meta-data android:name="unity.build-id" android:value="ae9ebfdb-7508-465c-b2ac-58a7816a288e" />
     <meta-data android:name="com.samsung.android.vr.application.mode" android:value="vr_only" />
     <meta-data android:name="com.unity.xr.oculus.LowOverheadMode" android:value="false" />
     <meta-data android:name="com.oculus.supportedDevices" android:value="quest|quest2" />

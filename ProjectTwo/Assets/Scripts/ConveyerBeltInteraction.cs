@@ -12,6 +12,7 @@ public class ConveyerBeltInteraction : MonoBehaviour
     public GameObject arrowNav3;
     public GameObject arrowNav4;
     public GameObject arrowNav5;
+    public GameObject arrowNav6;
     //private MasterScript MasterScript;
 
     private void Start()
@@ -22,6 +23,7 @@ public class ConveyerBeltInteraction : MonoBehaviour
         arrowNav3.SetActive(false);
         arrowNav4.SetActive(false);
         arrowNav5.SetActive(false);
+        arrowNav6.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -33,6 +35,7 @@ public class ConveyerBeltInteraction : MonoBehaviour
             arrowNav3.SetActive(true);
             arrowNav4.SetActive(true);
             arrowNav5.SetActive(true);
+            arrowNav6.SetActive(true);
 
             other.gameObject.SetActive(false);
             blueGift.SetActive(true);
