@@ -1,12 +1,25 @@
-﻿<Properties StartupConfiguration="{2F1748C7-DC56-BD7F-DBB5-8E4585C341AD}|">
+﻿<Properties>
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ConveyerBeltInteraction.cs">
     <Files>
       <File FileName="Assets/Scripts/ConveyerBeltInteraction.cs" Line="26" Column="6" />
-      <File FileName="Assets/Scripts/BucketController.cs" Line="19" Column="54" />
-      <File FileName="Assets/Scripts/MasterScript.cs" Line="39" Column="1" />
+      <File FileName="Assets/Scripts/BucketController.cs" />
+      <File FileName="Assets/Scripts/MasterScript.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ProjectTwo" expanded="True">
+            <Node name="Assembly-CSharp" expanded="True">
+              <Node name="Assets" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="ConveyerBeltInteraction.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
           <Node name="ProjectTwo" expanded="True" selected="True" />
         </State>

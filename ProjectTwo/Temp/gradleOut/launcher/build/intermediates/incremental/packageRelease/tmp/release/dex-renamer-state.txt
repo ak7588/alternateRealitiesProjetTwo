@@ -1,0 +1,4 @@
+#Mon Oct 11 13:39:11 GST 2021
+base.0=/Volumes/SAVE HERE/alternateRealitiesProjetTwo/ProjectTwo/Temp/gradleOut/launcher/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
