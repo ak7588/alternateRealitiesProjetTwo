@@ -8,6 +8,8 @@ TagManager:
   - Gift
   - GrayBox
   - Key
+  - SleighEndPos
+  - LockPos
   layers:
   - Default
   - TransparentFX

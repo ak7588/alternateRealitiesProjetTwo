@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class StartEngine : MonoBehaviour
 {
@@ -14,36 +15,58 @@ public class StartEngine : MonoBehaviour
     public GameObject arrowNav8;
     private bool taskCompleted = false;
     private bool isPlaying = false;
+    private bool isRotating = false;
+    private SleighTakeOff script;
+
+    private Vector3 startPos, endPos;
+    private float lerp = 0, duration = 6;
+    private Quaternion startRot, endRot;
+
 
     private void Start()
     {
         keyCopy.SetActive(false);
+        startPos = transform.position;
+        endPos = GameObject.Find("LockPos").transform.position;
+        startRot = transform.rotation;
+        endRot = GameObject.Find("LockPos").transform.rotation;
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Key"))
         {
-            transform.Rotate(Vector3.right * speed * Time.deltaTime);
-            arrowNav7.SetActive(false);
-            arrowNav8.SetActive(false);
-            //keyCopy.SetActive(true);
-            //key.SetActive(false);
-            taskCompleted = true;
+            isRotating = true;
         }
     }
 
     private void Update()
     {
+        if (isRotating)
+        {
+            lerp += Time.deltaTime / duration;
+            transform.position = Vector3.Lerp(startPos, endPos, lerp);
+            transform.rotation = Quaternion.Lerp(startRot, endRot, lerp);
+            arrowNav7.SetActive(false);
+            arrowNav8.SetActive(false);
+            keyCopy.SetActive(true);
+            key.SetActive(false);
+            keyCopy.SetActive(true);
+            taskCompleted = true;
+        }
+
         if (taskCompleted && !isPlaying)
         {
             santaVoice.Play();
             final.Play();
             isPlaying = true;
         }
+    }
 
-        if (taskCompleted && isPlaying) {
-            final.Play();
-        }
+    private void SleighTakesOff()
+    {
+
     }
 }
+
+

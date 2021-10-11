@@ -62,6 +62,7 @@
     <Compile Include="Assets/Scripts/ConveyerBeltInteraction.cs" />
     <Compile Include="Assets/Scripts/FloorTimeOut.cs" />
     <Compile Include="Assets/Scripts/StartEngine.cs" />
+    <Compile Include="Assets/Scripts/SleighTakeOff.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
