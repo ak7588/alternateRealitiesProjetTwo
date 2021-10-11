@@ -3,15 +3,17 @@
     <Files>
       <File FileName="Assets/Scripts/ConveyerBeltInteraction.cs" Line="17" Column="1" />
       <File FileName="Assets/Scripts/BucketController.cs" />
-      <File FileName="Assets/Scripts/StartEngine.cs" Line="31" Column="39" />
+      <File FileName="Assets/Scripts/StartEngine.cs" Line="62" Column="1" />
       <File FileName="Assets/Scripts/SleighTakeOff.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ProjectTwo" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
-              <Node name="Scripts" expanded="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="StartEngine.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -19,6 +21,10 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>Unity.XR.Management.Samples.Editor.csproj</String>
+    <String>Unity.XR.Management.Samples.csproj</String>
+  </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2791ad05-3a9d-430b-9b88-d25227376b72" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
