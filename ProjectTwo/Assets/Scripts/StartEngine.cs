@@ -22,6 +22,9 @@ public class StartEngine : MonoBehaviour
     private float lerp = 0, duration = 6;
     private Quaternion startRot, endRot;
 
+    private Vector3 startPosSleigh, endPosSleigh;
+    private float lerpSleigh = 0, durationSleigh = 12;
+
 
     private void Start()
     {
@@ -30,6 +33,8 @@ public class StartEngine : MonoBehaviour
         endPos = GameObject.Find("LockPos").transform.position;
         startRot = transform.rotation;
         endRot = GameObject.Find("LockPos").transform.rotation;
+        startPosSleigh = GameObject.Find("Sleigh").transform.position;
+        endPosSleigh = GameObject.Find("endPos").transform.position;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -55,17 +60,15 @@ public class StartEngine : MonoBehaviour
             taskCompleted = true;
         }
 
-        if (taskCompleted && !isPlaying)
-        {
-            santaVoice.Play();
-            final.Play();
-            isPlaying = true;
+        if (taskCompleted) {
+            lerpSleigh += Time.deltaTime / durationSleigh;
+            GameObject.Find("Sleigh").transform.position = Vector3.Lerp(startPosSleigh, endPosSleigh, lerpSleigh);
+            if (!isPlaying) {
+                santaVoice.Play();
+                final.Play();
+                isPlaying = true;
+            }
         }
-    }
-
-    private void SleighTakesOff()
-    {
-
     }
 }
 
